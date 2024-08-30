@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ship_design>
+	<plan accumulateHealth="true" convex="false">
+		<item parent="-1" index="0">
+			<!--
+			Block Size: 0.0048x0.0048x0.0048 Considered 0x0x0 in size but selectable with rect.
+			Invalid Index/Material pairs like index="0" material="11" make Smart-Hull instead.
+				Index:
+					000 = Blank-Hull
+					001 = Smart-Hull
+					002 = Smart-Blank-Hull
+					003 = Engine
+					004 = Stone
+					005 = Cargo Bay
+					006 = Crew Quarters
+					007 = Thruster
+					008 = Armor
+					009 = Framework
+					010 = Hanger
+					011 = Dock
+					012 = Turret Rotation Lock
+					013 = Directional Thruster
+					014 = Gyro Array
+					015 = Inertia Dampener
+					016 = Flight Recorder
+					017 = Assembly
+					018 = Torpedo Launcher
+					019 = Torpedo Storage
+					020 = Turret Base
+					021 = Edge Turret Base
+					022 = Frontal Torpedo Launcher
+					023 = Turret Rotation Lock Edge
+					024 = Armored Turret Base
+					025 = Armored Edge Turret Base
+					026-049 = Smart-Hull(?)
+					050 = Shield Generator
+					051 = Energy Container
+					052 = Generator
+					053 = Integrity Field Generator
+					054 = Computer Core
+					055 = Hyperspace Core
+					056 = Transporter
+					057 = Academy
+					058 = Cloning Pods
+					059 = Smart-Hull(?)
+					060 = Solar Panel
+					061 = Light
+					062 = Colored Light
+					063 = Flashing Light 1
+					064 = Flashing Light 2
+					065 = Flashing Light 3
+					066-099 = Smart-Hull(?)
+					100 = Smart Edge
+					101 = Smart Corner 1
+					102 = Smart Corner 2
+					103 = Smart Corner 3
+					104-107 = Smart-Hull(?)
+					108 = Smart Twisted Corner 1
+					109 = Smart Twisted Corner 2
+					110-111 = Smart-Hull(?)
+					112 = Smart Flat Corner
+					113 = Smart-Hull(?)
+					114 = Edge Crew Quarters
+					115 = Corner Crew Quarters 1
+					116 = Corner Crew Quarters 2
+					117 = Corner Crew Quarters 3
+					118 = Twisted Corner Crew Quarters 1
+					119 = Twisted Corner Crew Quarters 2
+					120 = Flat Corner Crew Quarters
+					121 = Hull
+					122 = Blank-Hull(?)
+					123 = Edge
+					124 = Corner 1
+					125 = Corner 2
+					126 = 
+					...
+					190 = Hologram
+					...
+					550 = Super Rich Rift Stone
+				Material:
+					-99 -> 0 = Iron
+					1 = Titanium
+					2 = Naonite
+					3 = Trinium
+					4 = Xanian
+					5 = Ogonite
+					6 -> 99 = Avorion
+			-->
+			<block lx="-0.50000000" ly="-0.500000" lz="-0.500000" ux="0.500000" uy="0.50000" uz="0.500000" index="126" material="6" look="0" up="3" color="ffffffff" secondaryColor="00000000"/>
+		</item>
+		<!--
+		<item parent="0" index="1">
+			<block lx="-0.50500000" ly="-0.505000" lz="-0.505000" ux="0.505000" uy="0.505000" uz="0.505000" index="006" material="3" look="0" up="3" color="ffffffff" secondaryColor="00000000"/>
+		</item>
+		-->
+	</plan>
+</ship_design>
